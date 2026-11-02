@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ytblocks"
+version = "0.1.0"
+description = "Terminal-styled Qt YouTube browser with ads omitted by construction"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+# Runtime deps (PySide6, libmpv, yt-dlp) come from pacman, see PKGBUILD.
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/YOUR_USERNAME/ytblocks"
+
+[project.scripts]
+ytblocks = "ytblocks.app:main"
+
+[tool.setuptools]
+packages = ["ytblocks"]

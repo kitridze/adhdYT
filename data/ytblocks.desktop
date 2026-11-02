@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=ytblocks
+GenericName=YouTube browser
+Comment=Terminal-styled YouTube browser and player with ads omitted
+Exec=ytblocks
+Icon=ytblocks
+Terminal=false
+Categories=AudioVideo;Video;Player;Qt;
+Keywords=youtube;video;mpv;yt-dlp;
+StartupWMClass=ytblocks

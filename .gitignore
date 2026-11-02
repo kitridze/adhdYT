@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+# makepkg output
+src/
+pkg/
+*.pkg.tar.*
+*.tar.gz
+*.log
+.venv/
+.idea/
+.vscode/
